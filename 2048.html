@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <meta charset="utf-8">
+  <title>ВМК 2048</title>
+
+  <link href="2048_files/main.css" rel="stylesheet" type="text/css">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="HandheldFriendly" content="True">
+  <meta name="MobileOptimized" content="320">
+  <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
+
+</head>
+<body data-twttr-rendered="true">
+  <div class="container">
+    <p class="game-intro">А еще я автор еще одной игры :) <strong><a href="https://play.google.com/store/apps/details?id=com.goldenman.cutter">Ссылка на Google Play</a></strong></p>
+    <div class="heading">
+      <h2 class="title">ВМК 2048</h1>
+      <div class="scores-container">
+        <div class="score-container"></div>
+        <div class="best-container"></div>
+      </div>
+    </div>
+    <p class="game-intro">Объединяй их и получи <strong>Сычугова!</strong></p>
+
+    <div class="game-container">
+      <div class="game-message">
+        <p></p>
+        <div class="lower">
+	        <a class="keep-playing-button">Keep going</a>
+          <a class="retry-button">Try again</a>
+          <div class="score-sharing"></div>
+        </div>
+      </div>
+
+      <div class="grid-container">
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+        <div class="grid-row">
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+          <div class="grid-cell"></div>
+        </div>
+      </div>
+
+      <div class="tile-container"></div>
+    </div>
+
+    <p class="game-explanation">
+      <strong class="important">Что делать:</strong> Используй свои <strong>стрелочки или кнопочки WSAD (а может быть и тачскрин)</strong> для перемещения педагогов. Когда два одинаковых педагога соприкоснутся, они <strong>превратятся в другого!</strong>
+    </p>
+    <hr>
+    <p>
+
+  </div>
+
+  <script src="2048_files/keyboard_input_manager.js"></script>
+  <script src="2048_files/html_actuator.js"></script>
+  <script src="2048_files/grid.js"></script>
+  <script src="2048_files/tile.js"></script>
+  <script src="2048_files/local_score_manager.js"></script>
+  <script src="2048_files/game_manager.js"></script>
+  <script src="2048_files/application.js"></script>
+
+
+</body></html>

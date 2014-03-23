@@ -1,10 +1,13 @@
 <!DOCTYPE html>
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<html manifest="cache.appcache">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
   <meta charset="utf-8">
   <title>ВМК 2048</title>
 
   <link href="2048_files/main.css" rel="stylesheet" type="text/css">
   <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="HandheldFriendly" content="True">
   <meta name="MobileOptimized" content="320">
   <meta name="viewport" content="width=device-width, target-densitydpi=160dpi, initial-scale=1.0, maximum-scale=1, user-scalable=no, minimal-ui">
@@ -12,15 +15,21 @@
 </head>
 <body data-twttr-rendered="true">
   <div class="container">
-    <p class="game-intro">А еще я автор еще одной игры :) <strong><a href="https://play.google.com/store/apps/details?id=com.goldenman.cutter">Ссылка на Google Play</a></strong></p>
+    <hr>
+    <p class="game-intro">А ещё я автор вот этой игры :) <strong><a href="https://play.google.com/store/apps/details?id=com.goldenman.cutter">Ссылка на Google Play</a></strong></p>
+    <p class="game-intro">Скачайте кому не трудно, хочу в топ, а для этого нужны скачивания, <strong>тысячи их</strong>! От пятизвёдочной оценки тоже не откажусь.</p>
     <div class="heading">
-      <h2 class="title">ВМК 2048</h1>
+      <h1 class="title">ВМК 2048</h1>
       <div class="scores-container">
         <div class="score-container"></div>
         <div class="best-container"></div>
       </div>
     </div>
-    <p class="game-intro">Объединяй их и получи <strong>Сычугова!</strong></p>
+
+    <div class="above-game">
+      <p class="game-intro">Объединяй их и получи <strong>Сычугова!</strong></p>
+      <a class="restart-button">New Game</a>
+    </div>    
 
     <div class="game-container">
       <div class="game-message">
@@ -66,7 +75,6 @@
       <strong class="important">Что делать:</strong> Используй свои <strong>стрелочки или кнопочки WSAD (а может быть и тачскрин)</strong> для перемещения педагогов. Когда два одинаковых педагога соприкоснутся, они <strong>превратятся в другого!</strong>
     </p>
     <hr>
-    <p>
 
   </div>
 

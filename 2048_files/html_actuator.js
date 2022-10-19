@@ -67,7 +67,7 @@ HTMLActuator.prototype.addTile = function (tile) {
 
   this.applyClasses(wrapper, classes);
 
-    img1 = "<img height=100% src=\"2048_files/mash.png\">";
+    img1 = "<img height=100% src=\"2048_files/arutyunov.png\">";
     img2 = "<img height=100% src=\"2048_files/roublev.png\">";
     img3 = "<img height=100% src=\"2048_files/panf.png\">";
     img4 = "<img height=100% src=\"2048_files/razborov.png\">";

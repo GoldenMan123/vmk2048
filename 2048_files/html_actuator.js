@@ -67,17 +67,17 @@ HTMLActuator.prototype.addTile = function (tile) {
 
   this.applyClasses(wrapper, classes);
 
-    img1 = "<img height=100% src=\"2048_files/arutyunov.png\">";
+    img1 = "<img height=100% src=\"2048_files/minaeva.png\">";
     img2 = "<img height=100% src=\"2048_files/roublev.png\">";
-    img3 = "<img height=100% src=\"2048_files/panf.png\">";
-    img4 = "<img height=100% src=\"2048_files/razborov.png\">";
-    img5 = "<img height=100% src=\"2048_files/shestimerny.png\">";
-    img6 = "<img height=100% src=\"2048_files/matveev.png\">";
-    img7 = "<img height=100% src=\"2048_files/fedotov.png\">";
-    img8 = "<img height=100% src=\"2048_files/inovenko.png\">";
-    img9 = "<img height=100% src=\"2048_files/popov.png\">";
-    img10 = "<img height=100% src=\"2048_files/shagi.png\">";
-    img11 = "<img height=100% src=\"2048_files/s4g.png\">";
+    img3 = "<img height=100% src=\"2048_files/vostrikov.png\">";
+    img4 = "<img height=100% src=\"2048_files/tochilin.png\">";
+    img5 = "<img height=100% src=\"2048_files/obrosova.png\">";
+    img6 = "<img height=100% src=\"2048_files/smirnov.png\">";
+    img7 = "<img height=100% src=\"2048_files/roublev.png\">";
+    img8 = "<img height=100% src=\"2048_files/arutyunov.png\">";
+    img9 = "<img height=100% src=\"2048_files/shananin.png\">";
+    img10 = "<img height=100% src=\"2048_files/bratus.png\">";
+    img11 = "<img height=100% src=\"2048_files/kurzhanski.png\">";
 
   inner.classList.add("tile-inner");
   switch (tile.value) {

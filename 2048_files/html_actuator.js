@@ -69,14 +69,14 @@ HTMLActuator.prototype.addTile = function (tile) {
 
     img1 = "<img height=100% src=\"2048_files/minaeva.png\">";
     img2 = "<img height=100% src=\"2048_files/Usova.png\">";
-    img3 = "<img height=100% src=\"2048_files/vostrikov.png\">";
-    img4 = "<img height=100% src=\"2048_files/tochilin.png\">";
-    img5 = "<img height=100% src=\"2048_files/obrosova.png\">";
-    img6 = "<img height=100% src=\"2048_files/smirnov.png\">";
-    img7 = "<img height=100% src=\"2048_files/roublev.png\">";
-    img8 = "<img height=100% src=\"2048_files/arutyunov.png\">";
-    img9 = "<img height=100% src=\"2048_files/shananin.png\">";
-    img10 = "<img height=100% src=\"2048_files/bratus.png\">";
+    img3 = "<img height=100% src=\"2048_files/obrosova.png\">";
+    img4 = "<img height=100% src=\"2048_files/roublev.png\">";
+    img5 = "<img height=100% src=\"2048_files/vostrikov.png\">";
+    img6 = "<img height=100% src=\"2048_files/tochilin.png\">";
+    img7 = "<img height=100% src=\"2048_files/arutyunov.png\">";
+    img8 = "<img height=100% src=\"2048_files/bratus.png\">";
+    img9 = "<img height=100% src=\"2048_files/smirnov.png\">";
+    img10 = "<img height=100% src=\"2048_files/shananin.png\">";
     img11 = "<img height=100% src=\"2048_files/kurzhanski.png\">";
 
   inner.classList.add("tile-inner");
